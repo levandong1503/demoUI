@@ -1,0 +1,115 @@
+.infoProduct{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: justify;
+}
+.productName{
+    font-size: 18px;
+}
+.oftionProduct,.imageProduct{
+    float:left;
+}
+.imageProduct{
+    display: block;
+    width: 370px;
+    margin-right: 40px;
+}
+.oftionProduct{
+    width: 500px;
+}
+.versionProduct,.colorProduct{
+    display: flex;
+    flex-wrap: wrap;
+}
+.version{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.btn-oftion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px ;
+    
+}
+.priceVersionProduct{
+    color: crimson;
+    font-weight: bolder;
+}
+.free-ship{
+    text-align: center;
+    background-color: #00483d;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.free-ship i{
+    font-size: 18px;
+    padding-right: 10px;
+}
+.listButton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.button,.button-sm{
+    padding: 5px;
+    border-radius:2px;
+    color: white;
+    cursor: pointer;
+    flex-grow: 0;
+    margin-right: 5px;
+    flex-grow: 2;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover,.button-sm:hover{
+    background-image: linear-gradient(to top,rgb(1, 154, 52),rgb(0, 86, 29));
+}
+.button strong{
+    display: block;
+    font-size: 11px;
+}
+.button span,.button-sm{
+    font-size: 10px;
+}
+.button-sm i{
+    font-size: 26px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.cl-1{
+    background-image: linear-gradient(to bottom,#fd475a 0%,#bf1e2d 100%);
+}
+.cl-1:hover{
+    background-image: linear-gradient(to top,#fd475a 0%,#bf1e2d 100%);
+}
+.cl-2{
+    background-image: linear-gradient(180deg,#00917a 0%,#00483d 100%);
+}
+.cl-2:hover{
+    background-image: linear-gradient(0deg,#00917a 0%,#00483d 100%);
+}
+.cl-3{
+    background-image: linear-gradient(180deg,#ff990e 0%,#ff6801 100%)
+}
+.cl-3:hover{
+    background-image: linear-gradient(0deg,#ff990e 0%,#ff6801 100%)
+}
+
+.descProduct{
+    font-size: 13px;
+}
+
+
+
+
+
